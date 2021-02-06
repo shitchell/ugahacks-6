@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+		<title>
+			Shaun Mitchell | contact
+		</title>
+		<link rel="icon" href="img/favicon.png" type="image/png" />
+
+        <!-- Materialize -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	    <!-- Font-Awesome -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	    
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Raleway:500|Montserrat:400,500&display=swap" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/main.css?1612651682" rel="stylesheet" />
+		<link href="css/theme.css?1612651682" rel="stylesheet" />
+		<link href="css/particles.css?1612651682" rel="stylesheet" />
+
+		<!-- Custom JS -->
+		<script href="js/main.js?1612651681"></script>
+				
+		<meta charset="utf-8" />
+		<meta name="generator" content="shitchell" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+	<div class="color-primary-dark" id="page-background"></div>
+	
+	<div class="navbar-fixed">
+		<nav class="color-primary-dark row">
+			<div class="nav-wrapper col s12">
+				<span href="#" class="brand-logo noselect center">shaun</span>
+				<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="home">home</a></li>
+					<li><a href="about">about</a></li>
+					<li><a href="contact">contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+<!--
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="home">home</a></li>
+		<li><a href="about">about</a></li>
+		<li><a href="contact">contact</a></li>
+	</ul>
+-->
+	<ul class="sidenav" id="nav-mobile">
+		<li>
+			<div class="user-view color-secondary-dark">
+				<img class="circle" href="img/profile-s.jpg">
+				<span class="name">Shaun Mitchell</span>
+				<a class="rot13" data-href="znvygb:funha@fuvgpuryy.pbz">
+					<span class="email rot13" data-inner="funha@fuvgpuryy.pbz"></span>
+				</a>
+			</div>
+		</li>
+
+<!--
+		<li><a class="subheader">Activities</a></li>
+-->
+
+		<!-- Navigation links -->
+		<li><a class="waves-effect" href="home">
+			<i class="material-icons left">home</i>Home
+		</a></li>
+		<li><a class="waves-effect" href="about">
+			<i class="material-icons left">info</i>About
+		</a></li>
+		<li><a class="waves-effect" href="contact">
+			<i class="material-icons left">email</i>Contact
+		</a></li>
+	</ul>
+
+	<main class="container color-primary-translucent z-depth-2">
+				<div class="row center">
+			<div class="col s12">
+				<h5 class="header">contact me</h5>
+				<p>I&#039;d love to hear from you!</p>
+			</div>
+
+			<form id="contact-form" action="https://api.shitchell.com/mail" class="col m8 offset-m2 s12">
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<input id="contact-name" name="name" type="text" />
+						<label for="contact-name">Name</label>
+					</div>
+					
+					<div class="input-field col s12 m6">
+						<input id="contact-email" name="from" type="email" class="validate" required />
+						<label for="contact-email">Email *</label>
+<!--
+						<span class="helper-text" data-error="invalid email"></span>
+-->
+					</div>
+
+					<div class="input-field col s12">
+						<input id="contact-subject" name="subject" type="text" />
+						<label for="contact-subject">Subject</label>
+					</div>
+
+					<div class="input-field col s12">
+						<textarea id="contact-message" name="msg" class="materialize-textarea validate" required></textarea>
+						<label for="contact-message">Message *</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<button name="submit" class="waves-effect waves-light btn" type="submit">Send</a>
+					</div>
+				</div>
+
+				<input type="hidden" id="contact-recipient" name="to" value="1" />
+				<input type="hidden" id="contact-url" name="url" value="github.com" />
+			</form>
+		</div>
+		<script href="js/contact.js?8"></script>
+	</main>
+	
+	<footer>
+		<div class="row">
+			<div id="social" class="col s12 center-align">
+				<a href="https://www.linkedin.com/in/shaun-the-mitchell" target="_blank">
+					<i class="fa fa-linkedin-square"></i>
+				</a>
+				<a href="https://www.instagram.com/sly_as_a_fawkes/" target="_blank">
+					<i class="fa fa-instagram"></i>
+				</a>
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="copyright" class="col s12 center-align">
+				<span>&copy; 2021 Shaun Mitchell</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- particles.js lib and config -->
+	<!--
+	<script href="js/particles.js"></script>
+	<script href="js/config.js"></script>
+	-->
+
+	<!-- Vanta.js lib and config -->
+	<script href="js/lib/three.r92.min.js"></script>
+	<script href="js/lib/vanta.fog.min.js?1"></script>
+	<script href="js/vanta.config.js?2"></script>
+
+	<!-- materializecss lib -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<!-- Created by Shaun Mitchell => shitchell.com -->
+</body>
+</html>
