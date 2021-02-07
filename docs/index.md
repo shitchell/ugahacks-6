@@ -34,10 +34,10 @@ print(f_5)
 
 **todo**
 
-- [ ] item 1
-- [ ] item 2
-  - [ ] subitem
-- [ ] item 3
+[ ] item 1
+[ ] item 2
+  [ ] subitem
+[ ] item 3
 
 If you love [git](https://git-scm.com/) and [GitHub](https://github.com), you'll love [GitHub Pages](https://pages.github.com), too.
 
