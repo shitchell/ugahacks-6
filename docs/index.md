@@ -1,4 +1,4 @@
-[home](/index)  [about](/about)
+[home](index)  [about](about)
 ===
 
 ## It works!
